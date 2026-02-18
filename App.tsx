@@ -2,12 +2,12 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom';
 import { Menu, X, Mail, MapPin } from 'lucide-react';
 import { NAV_LINKS } from './constants';
-import Home from './pages/Home.tsx';
-import Project from './pages/Project.tsx';
-import DemocracyMethod from './pages/DemocracyMethod.tsx';
-import About from './pages/About.tsx';
-import Involved from './pages/Involved.tsx';
-import Transparency from './pages/Transparency.tsx';
+import Home from './pages/Home';
+import Project from './pages/Project';
+import DemocracyMethod from './pages/DemocracyMethod';
+import About from './pages/About';
+import Involved from './pages/Involved';
+import Transparency from './pages/Transparency';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
