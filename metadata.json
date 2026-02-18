@@ -1,0 +1,8 @@
+{
+  "name": "Ahmed Matar - Vénissieux 2026",
+  "description": "Site officiel de campagne d'Ahmed Matar pour les municipales de Vénissieux. Focus sur la démocratie directe, le budget participatif et le renouveau citoyen.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
